@@ -4,10 +4,14 @@ Best fivem weather sync code, period. It wont work without my ESX fork, unless y
 
 ## Features
 
-- Shadows don't move like they're broken, and the sun also moves in a fluid way. My script uses a native that overrides how fast a minute shall past instead of overriding the current time which is causing the above
+- My script uses a native that overrides how fast time pasts instead of overriding the current time which is causing the following issues:
+  - shadows move in a fixed way
+  - sun moves in a fixed way
+  - water waves reset all the time
+  - brightness to move in a fixed way between dusk and dawn
 - Supports hot-restart of script without losing anything
 - As it uses convars and reads them on script start you can override the weather and time as you like (see below)
-- Weather sync is better. In many scripts if you drive too fast then the weather might change around, it shouldn't happen with this code
+- Weather sync is better. In many scripts if you drive too fast then the weather might change around, it shouldn’t happen with this code
 - Clean and short source code, and performance is great
 
 ## How to have a fixed weather / time (useful for christmas season)
